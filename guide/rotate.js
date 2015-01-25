@@ -24,7 +24,7 @@ define(function (require, exports, module) {
                 count++;
 
                 var scale = count / totalCount;
-                var cur = startPosition + distance * Math.pow(scale, 3);
+                var cur = startPosition + distance * (1 - Math.pow((1 - scale), 3));
 
                 var toLeft = R + R * Math.sin(toRadian(cur));
                 var toTop = R - R * Math.cos(toRadian(cur));

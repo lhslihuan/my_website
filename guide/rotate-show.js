@@ -9,7 +9,7 @@ define(function (require, exports, module) {
             $circleSpan.addClass("rotate_circle");
             $outCircle.append($circleSpan);
 
-            require("./rotate").rotate($circleSpan, 360 / n * i, 700, $outCircle.width() / 2);
+            require("./rotate").rotate($circleSpan, 360 / n * i, 1000, $outCircle.width() / 2);
         }
     };
 });
