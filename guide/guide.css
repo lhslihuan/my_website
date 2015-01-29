@@ -4,7 +4,8 @@ html{
 body{
     margin: 0 auto;
     padding: 0;
-    background: url("bg.jpg") no-repeat;
+    /*background: url("bg.jpg") no-repeat;*/
+    background: url("./img/bg.png");
     background-size: cover;
     background-position-x: 50%;
     height:100%;
@@ -14,13 +15,15 @@ body{
     height: 100%;
     float: right;
     /*background-color: #1F1514;*/
-    background-color: #000;
-    opacity: 0.75;
+    /*background-color: #000;*/
+    /*opacity: 0.75;*/
+    background-color: rgba(11, 0, 61, 0.34);
 }
 div.outer_circle{
     width: 500px;
     height: 500px;
-    border: 12px solid rgba(87, 30, 30, 0.48);
+    /*border: 12px solid rgba(87, 30, 30, 0.48);*/
+    border: 12px solid rgba(207, 220, 236, 1);
     border-radius: 50%;
     position: relative;
     left: 50%;
@@ -44,12 +47,13 @@ div span.rotate_circle{
 span.rotate_circle.top-layer {
     opacity: 0.3;
 }
-span.rotate_circle:after {
+span.rotate_circle.top-layer:after {
     content: '';
     display: block;
     width: 100%;
     height: 100%;
-    background-image: -webkit-gradient(linear, 0% 51%, 0% 100%, from(rgba(255, 255, 255, 0)), to(rgb(55, 21, 15)))
+    /*background-image: -webkit-gradient(linear, 0% 51%, 0% 100%, from(rgba(255, 255, 255, 0)), to(rgb(55, 21, 15)));*/
+    background-image: -webkit-gradient(linear, 0% 51%, 0% 100%, from(rgba(255, 255, 255, 0)), to(rgb(79, 119, 172)));
 }
 div.inner_circle{
     width: 230px;
@@ -76,22 +80,26 @@ div.inner_circle{
     height: 0;
     padding-bottom: 100%;
     border-radius: 50%;
-    border: 10px solid #ECCFCF;
+    /*border: 10px solid #ECCFCF;*/
+    border:10px solid #cfdcec;
     overflow: hidden;
-    background: #8E3030;
+    /*background: #8E3030;*/
+    background: #4679BD;
     box-shadow: 0 0 3px gray;
 }
 .round-button-circle:hover {
-    background: #662525;
+    /*background: #662525;*/
+    background:#30588e;
 }
-.round-button-circle span {
+.round-button-circle a {
     width: 230px;
     height: 230px;
     display: block;
-    color: rgb(58, 29, 28);
+    color: rgb(207, 220, 236);
     font-size: 30px;
     text-align: center;
     line-height: 230px;
     font-weight: bold;
-    font-family: 微软雅黑;
+    font-family: "微软雅黑";
+    text-decoration: none;
 }
