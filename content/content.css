@@ -10,6 +10,7 @@ body{
 }
 .page1{
     background-image: url("image/00.jpg");
+    height: 1800px;
 }
 .page2{
     background-image: url("image/01.jpg");
