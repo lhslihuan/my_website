@@ -4,7 +4,7 @@
 define(function (require, exports, module) {
     exports.rotateShow = function (n, callback) {
         var $outCircle = $(".j_outer_circle"),
-            time = 1000;
+            time = 2000;
         for (var i = 0 ; i < n * 2; i++) {
             var $circleSpan = $("<span>");
             $circleSpan.css("backgroundImage", "url(" + "img/"+ 0 + i % n + ".jpg)");

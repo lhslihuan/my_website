@@ -1,0 +1,179 @@
+.scene{
+    position: relative;
+    overflow: hidden;
+    height: 100%;
+}
+.scene .layer{
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    overflow: hidden;
+}
+.scene .layer .bubble{
+    position: absolute;
+    border-radius: 50%;
+    background: rgba(142, 52, 104, 0.84);;
+}
+.scene .layer1 .bubble1{
+    top: 100px;
+    left: 80px;
+    width: 30px;
+    height: 30px;
+}
+.scene .layer1 .bubble2{
+    top: 20px;
+    left: 640px;
+    width: 20px;
+    height: 20px;
+}
+.scene .layer1 .bubble3{
+    top: 130px;
+    left: 1000px;
+    width: 30px;
+    height: 30px;
+}
+.scene .layer1 .bubble4{
+    top: 70px;
+    left: 1300px;
+    width: 20px;
+    height: 20px;
+}
+.scene .layer1 .bubble5{
+    top: 150px;
+    left: 1200px;
+    width: 30px;
+    height: 30px;
+}
+.scene .layer1 .bubble6{
+    top: 230px;
+    left: 400px;
+    width: 20px;
+    height: 20px;
+}
+.scene .layer1 .bubble7{
+    top: 30px;
+    left: 200px;
+    width: 20px;
+    height: 20px;
+}
+.scene .layer1 .bubble8{
+    top: 130px;
+    left: 600px;
+    width: 20px;
+    height: 20px;
+}
+.scene .layer1 .bubble9{
+    top: 280px;
+    right: 200px;
+    width: 20px;
+    height: 20px;
+}
+.scene .layer2 .bubble1{
+    top: 490px;
+    left: 190px;
+    width: 40px;
+    height: 40px;
+}
+.scene .layer2 .bubble2{
+    top: 450px;
+    left: 500px;
+    width: 50px;
+    height: 50px;
+}
+.scene .layer2 .bubble3{
+    top: 280px;
+    left: 450px;
+    width: 45px;
+    height: 45px;
+}
+.scene .layer2 .bubble4{
+    top: 390px;
+    left: 1250px;
+    width: 35px;
+    height: 35px;
+}
+.scene .layer2 .bubble5{
+    top: 310px;
+    right: 160px;
+    width: 50px;
+    height: 50px;
+}
+.scene .layer2 .bubble6{
+    top: 240px;
+    left: 830px;
+    width: 40px;
+    height: 40px;
+}
+.scene .layer2 .bubble7{
+    top: 740px;
+    left: 830px;
+    width: 40px;
+    height: 40px;
+}
+.scene .layer2 .bubble8{
+    top: 640px;
+    left: 330px;
+    width: 40px;
+    height: 40px;
+}
+.scene .layer2 .bubble9{
+    top: 840px;
+    right: 130px;
+    width: 40px;
+    height: 40px;
+}
+.scene .layer5 .bubble1{
+    top: 510px;
+    left: 40px;
+    width: 56px;
+    height: 56px;
+}
+.scene .layer5 .bubble2{
+    position: absolute;
+    top: 240px;
+    left: 340px;
+    width: 60px;
+    height: 60px;
+}
+.scene .layer5 .bubble3{
+    top: 480px;
+    left: 870px;
+    width: 65px;
+    height: 65px;
+}
+.scene .layer5 .bubble4{
+    top: 100px;
+    left: 640px;
+    width: 60px;
+    height: 60px;
+}
+.scene .layer5 .bubble5{
+    top: 530px;
+    left: 1000px;
+    width: 50px;
+    height: 50px;
+}
+.scene .layer5 .bubble6{
+    top: 360px;
+    left: 700px;
+    width: 56px;
+    height: 56px;
+}
+.scene .layer5 .bubble7{
+    top: 150px;
+    left: 100px;
+    width: 56px;
+    height: 56px;
+}
+.scene .layer5 .bubble8{
+    top: 900px;
+    left: 200px;
+    width: 56px;
+    height: 56px;
+}
+.scene .layer5 .bubble9{
+    top: 900px;
+    right: 200px;
+    width: 56px;
+    height: 56px;
+}
