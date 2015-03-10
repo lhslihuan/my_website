@@ -2,29 +2,29 @@
  * Created by LSH on 2015/2/7.
  */
 define(function (require, exports, module) {
-    module.exports = function ($element) {
-        var wide = 10;
-        var high = 5;
+    module.exports = {
+        init: function ($container) {
+            var colAmount = 10;
+            var rowAmount = 5;
 
-       for (var r = 0; r < wide; r++) {
-           for (var c = 0; c < high; c++) {
-               var $eleSpan = $("<span></span>");
-               alert(1)
-               $eleSpan.css("width",'$element.width()/wide +"px"');
-               $eleSpan.css("height",'$element.height()/high +"px"');
-               $eleSpan.appendTo($element);
+            for (var colIndex = 0; colIndex < colAmount; colIndex++) {
+                for (var rowIndex = 0; rowIndex < rowAmount; rowIndex++) {
+                    var $span = $("<span></span>");
 
-               console.log($eleSpan.width());
-           }
-       }
+                    $span.css("width", $container.width() / colAmount +"px");
+                    $span.css("height", $container.height() / rowAmount +"px");
+                    $span.css("left", $container.width() / colAmount * colIndex + "px" );
+                    $span.css("top", $container.height() / rowAmount * rowIndex + "px" );
+                    $span.css("background-position", "-" + $span.css("left") + " -" + $span.css("top"));
 
+                    $span.appendTo($container);
+                }
+            }
+        },
+        next: function () {
 
-                //$(this).css("display","block");
-                //this.addClass("active");
-                //$(this).attr("src", "page2img/"+ i +".jpg");
-                //$(this).css("background","red");
-                //$(this).attr("display","block");
-                //$(this).addClass("active");
-        };
-    }
+        }
+    };
+
+});
 

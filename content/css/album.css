@@ -9,13 +9,13 @@ div.pic{
     top: 200px;
     left: 580px;
     background: url("../img/page2img/0.jpg") no-repeat;
-
+    overflow: hidden;
 }
 div.pic span{
     position: absolute;
     left: 0;
     top: 0;
-    background: url("../img/page2img/1.jpg") no-repeat;
+    background: url("../img/page2img/0.jpg") no-repeat;
     background-position: 0 0;
 }
 div.button_box{
@@ -24,7 +24,7 @@ div.button_box{
     left: 1090px;
     width: 115px;
 }
-div input.button{
+div .button{
     width: 115px;
     height: 50px;
     border-radius: 10px;
@@ -34,6 +34,6 @@ div input.button{
     border: none;
     background: rgba(34, 107, 93, 0.81)
 }
-div input.button:focus {
+div .button:focus {
     outline: -webkit-focus-ring-color auto 0;
 }
