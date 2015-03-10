@@ -20,11 +20,13 @@ div.pic span{
 }
 div.button_box{
     position: relative;
-    top: 770px;
-    left: 1090px;
+    top: 650px;
+    left: 1130px;
     width: 115px;
+    z-index: 1;
 }
 div .button{
+    cursor: pointer;
     width: 115px;
     height: 50px;
     border-radius: 10px;

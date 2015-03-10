@@ -15,6 +15,7 @@ body{
 .page2{
     background-image: url("../img/image/01.jpg");
     background-position: 50%;
+    position: relative;
 }
 .page3{
     background-image: url("../img/image/02.jpg");
@@ -41,4 +42,17 @@ body{
 
 .undone {
     -webkit-filter: grayscale(.8);
+}
+
+.page2 h2 {
+    margin: 0;
+    color: rgb(27, 76, 100);
+    font-size: 70px;
+    position: absolute;
+    font-family: 微软雅黑, serif;
+    left: 460px;
+    top: 300px;
+    width: 90px;
+    text-align: center;
+    opacity: 0.8;
 }

@@ -10,7 +10,7 @@ seajs.use(['./js/album'],
         album.init($albumBox);
 
         var isAnimating = false;
-        $nextButton.click(function () {
+        function next () {
             if (isAnimating) {
                 return;
             }
@@ -22,5 +22,7 @@ seajs.use(['./js/album'],
             album.next("./img/page2img/" + iNow + ".jpg", function () {
                 isAnimating = false;
             });
-        });
+        }
+        $nextButton.click(next);
+        setInterval(next, 3000);
     });
