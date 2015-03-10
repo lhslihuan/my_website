@@ -10,11 +10,11 @@ body{
 }
 .page1{
     background-image: url("image/00.jpg");
-    height: 1800px;
+    height: 1500px;
 }
 .page2{
     background-image: url("image/01.jpg");
-    background-position-y: -152px;
+    background-position: 50%;
 }
 .page3{
     background-image: url("image/02.jpg");

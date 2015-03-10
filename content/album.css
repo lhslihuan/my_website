@@ -1,0 +1,39 @@
+div.pic{
+    padding: 0;
+    margin: 0;
+    width: 680px;
+    height: 455px;
+    border: 10px solid #489D8F;
+    border-radius: 70px;
+    position: relative;
+    top: 200px;
+    left: 580px;
+    background: url("page2img/0.jpg") no-repeat;
+
+}
+div.pic span{
+    position: absolute;
+    left: 0;
+    top: 0;
+    background: url("page2img/1.jpg") no-repeat;
+    background-position: 0 0;
+}
+div.button_box{
+    position: relative;
+    top: 770px;
+    left: 1090px;
+    width: 115px;
+}
+div input.button{
+    width: 115px;
+    height: 50px;
+    border-radius: 10px;
+    color: #F9FAFC;
+    font-family: 微软雅黑;
+    font-size: 24px;
+    border: none;
+    background: rgba(34, 107, 93, 0.81)
+}
+div input.button:focus {
+    outline: -webkit-focus-ring-color auto 0;
+}
