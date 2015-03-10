@@ -1,0 +1,30 @@
+body{
+    margin: 0;;
+    padding: 0;
+}
+.page{
+    height: 1000px;
+    background-position: 50% 50%;
+    background-size: cover;
+    background-attachment: fixed;
+}
+.page1{
+    background-image: url("../img/image/00.jpg");
+    height: 1500px;
+}
+.page2{
+    background-image: url("../img/image/01.jpg");
+    background-position: 50%;
+}
+.page3{
+    background-image: url("../img/image/02.jpg");
+}
+.page4{
+    background-image: url("../img/image/03.jpg");
+}
+.page5{
+    background-image: url("../img/image/04.jpg");
+}
+.page6{
+    background-image: url("../img/image/05.jpg");
+}

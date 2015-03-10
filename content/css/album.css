@@ -8,14 +8,14 @@ div.pic{
     position: relative;
     top: 200px;
     left: 580px;
-    background: url("page2img/0.jpg") no-repeat;
+    background: url("../img/page2img/0.jpg") no-repeat;
 
 }
 div.pic span{
     position: absolute;
     left: 0;
     top: 0;
-    background: url("page2img/1.jpg") no-repeat;
+    background: url("../img/page2img/1.jpg") no-repeat;
     background-position: 0 0;
 }
 div.button_box{

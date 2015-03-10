@@ -5,7 +5,7 @@ body{
     margin: 0 auto;
     padding: 0;
     /*background: url("bg.jpg") no-repeat;*/
-    background: url("./img/bg.png");
+    background: url("../img/bg.png");
     background-size: cover;
     background-position-x: 50%;
     height:100%;
@@ -40,7 +40,7 @@ div span.rotate_circle{
     margin-top: -45px;
     border-radius: 50%;
     /*background: rgba(108, 36, 36, 0.5);*/
-    background: url("img/01.jpg") 50% 50%;
+    background: url("../img/01.jpg") 50% 50%;
     background-size: cover;
     overflow: hidden;
 }
