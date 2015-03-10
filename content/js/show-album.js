@@ -4,14 +4,23 @@
 seajs.use(['./js/album'],
     function (album) {
         //var $allPic = $(".page2 ul li img");
-        var iNow = 0;
+        var iNow = 1;
         var $albumBox = $(".j_page2 .j_pic");
         var $nextButton = $(".j_page2 .j_next");
         album.init($albumBox);
 
+        var isAnimating = false;
         $nextButton.click(function () {
+            if (isAnimating) {
+                return;
+            }
+            isAnimating = true;
             iNow++;
-            debugger;
-            album.next($albumBox);
+            if (iNow === 9) {
+                iNow = 1;
+            }
+            album.next("./img/page2img/" + iNow + ".jpg", function () {
+                isAnimating = false;
+            });
         });
     });
