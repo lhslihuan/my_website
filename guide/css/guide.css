@@ -4,7 +4,6 @@ html{
 body{
     margin: 0 auto;
     padding: 0;
-    /*background: url("bg.jpg") no-repeat;*/
     background: url("../img/bg.png");
     background-size: cover;
     background-position-x: 50%;
@@ -14,15 +13,11 @@ body{
     width: 50%;
     height: 100%;
     float: right;
-    /*background-color: #1F1514;*/
-    /*background-color: #000;*/
-    /*opacity: 0.75;*/
     background-color: rgba(11, 0, 61, 0.34);
 }
 div.outer_circle{
     width: 500px;
     height: 500px;
-    /*border: 12px solid rgba(87, 30, 30, 0.48);*/
     border: 12px solid rgba(207, 220, 236, 1);
     border-radius: 50%;
     position: relative;

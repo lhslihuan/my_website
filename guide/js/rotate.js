@@ -11,6 +11,13 @@ define(function (require, exports, module) {
     }
     module.exports = {
         toRadian: toRadian,
+        /**
+         * 让一个球转起来
+         * @param $rotateBall  被旋转的对象
+         * @param targetPosition 角度
+         * @param time
+         * @param R
+         */
         rotate: function ($rotateBall, targetPosition, time, R) {
             var startPosition = 0;
             var distance = targetPosition - startPosition;

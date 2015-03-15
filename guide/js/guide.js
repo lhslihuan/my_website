@@ -1,11 +1,11 @@
 /**
  * Created by LSH on 2015/1/25.
  */
-seajs.use(['./js/rotate-show'], function (rotateShow) {
+seajs.use(['./js/rotate-show'], function (rotateShowModule) {
     $(function () {
         var $innerCircle = $('.j_inner_circle');
 
-        rotateShow.rotateShow(6, function () {
+        rotateShowModule.rotateShow(6, function () {
             $innerCircle.fadeIn();
         });
     })
